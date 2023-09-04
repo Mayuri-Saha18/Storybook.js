@@ -1,0 +1,20 @@
+.primary{
+    color: aqua;
+    background-color: cadetblue;
+}
+.secondary{
+    color:darkorange;
+    background-color:darkseagreen;
+}
+.small{
+    width: 50px;
+}
+.medium{
+    width: 80px;
+}
+.large{
+    width: 100px;
+}
+button{
+    border-radius: 3%;
+}
