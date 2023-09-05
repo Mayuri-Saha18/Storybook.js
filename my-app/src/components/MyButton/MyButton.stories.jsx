@@ -12,6 +12,32 @@ export default{
 export const Primary={
     args:{
         primary: true,
-        text: 'Primary',
+        text: 'Cliked',
+    },
+};
+
+export const Secondary={
+    args:{
+        primary: false,
+        text: 'secondary',
+    },
+};
+
+export const Small={
+    args:{
+        size:"small",
+        text: 'Small',
+    },
+};
+export const Medium={
+    args:{
+        
+        text: 'Medium',
+    },
+};
+export const Large={
+    args:{
+        
+        text: 'Large',
     },
 };

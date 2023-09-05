@@ -1,20 +1,28 @@
 .primary{
-    color: aqua;
-    background-color: cadetblue;
+    color: rgb(68, 0, 255);
+    font-size: 14px;
+    background-color: rgb(125, 185, 187);
 }
 .secondary{
     color:darkorange;
+    font-size: 20px;
     background-color:rgb(207, 226, 207);
 }
 .small{
-    width: 50px;
-}
-.medium{
-    width: 80px;
-}
-.large{
     width: 100px;
 }
+.medium{
+    width: 150px;
+}
+.large{
+    width: 180px;
+}
 button{
-    border-radius: 3%;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
 }

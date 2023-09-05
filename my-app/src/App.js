@@ -1,6 +1,7 @@
 
 import './App.css';
-import MyButton from './components/MyButton/MyButton';
+import {MyButton} from './components/MyButton/MyButton';
+import { Input } from './components/MyInput/Input';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
      
       <MyButton text={"Click me"} bgColor={"red"} size={"small"} primary={true} onclick={hello}></MyButton>
+      <Input/>
     </div>
   );
 }
