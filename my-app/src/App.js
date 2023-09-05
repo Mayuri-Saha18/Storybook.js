@@ -1,12 +1,16 @@
 
 import './App.css';
-import Button from './components/MyButton/Button';
+import MyButton from './components/MyButton/MyButton';
 
 function App() {
+
+  function hello(){
+    console.log("Hello")
+  }
   return (
     <div className="App">
      
-      <Button text={"Click me"} size={"small"} primary={true}></Button>
+      <MyButton text={"Click me"} bgColor={"red"} size={"small"} primary={true} onclick={hello}></MyButton>
     </div>
   );
 }
