@@ -1,4 +1,6 @@
-import {MyButton} from "./MyButton"
+import {MyButton} from "./MyButton";
+import {action} from "@storybook/addon-actions";
+import {withKnobs,text,number} from "@storybook/addon-knobs";
 
 export default{
     title: 'Components/MyButton',
@@ -7,6 +9,7 @@ export default{
         layout:'centered',
     },
     tags:['autodocs'],
+    decoratore:[withKnobs],
 };
 
 export const Primary={
@@ -40,4 +43,11 @@ export const Large={
         
         text: 'Large',
     },
+};
+
+export const withAddon=()=>{
+   const name=text("name","james");
+   const age=number("age","20");
+   const content=`${name} ${age}`;
+   return <MyButton onclick={action('button-click')} label={content}/>;
 };
